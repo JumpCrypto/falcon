@@ -4,7 +4,7 @@ AVX-512 implementation of Falcon signature verification.
 
 This work was developed as part of the
 [Firedancer](https://github.com/firedancer-io/firedancer) project, and is described in the paper:\
-**Falcon Verify on AVX-512: Speed Records** [2026/??](https://eprint.iacr.org/2026/??).
+**Falcon Verify on AVX-512: Speed Records** [2026/1539](https://eprint.iacr.org/2026/1539).
 
 This repository is self-contained so the benchmarks in the paper can be reproduced without the rest of the Firedancer tree. The fastest, standard, AVX-512 verifier is in [`falcon/falcon_avx512.c`](falcon/falcon_avx512.c).
 
@@ -25,9 +25,9 @@ assumes `-march=native`. See `bench --help` for options.
 @misc{falcon-verify-avx512,
   author       = {David Rubin and Emanuele Cesena},
   title        = {Falcon Verify on {AVX-512}: Speed Records},
-  howpublished = {Cryptology {ePrint} Archive, Report 2026/??},
+  howpublished = {Cryptology {ePrint} Archive, Report 2026/1539},
   year         = {2026},
-  url          = {https://eprint.iacr.org/2026/??}
+  url          = {https://eprint.iacr.org/2026/1539}
 }
 ```
 
